@@ -13,29 +13,32 @@ body {
   font-weight: 800;
 }
 
-.para {
+.para,
+.text {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button  {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+.button.cancel,
+.confirm {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
+.small-para,
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+p {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
